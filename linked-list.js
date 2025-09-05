@@ -137,18 +137,18 @@ export class LinkedList {
 
   // **************************** //
 
-  // find(value) {
-  //   let current = this.head;
-  //   let currentIndex = 0;
+  find(value) {
+    let current = this.head;
+    let currentIndex = 0;
 
-  //   while (current !== null && current.value !== value) {
-  //     currentIndex += 1;
-  //     current = current.nextNode;
-  //   }
+    while (current !== null && current.value !== value) {
+      currentIndex += 1;
+      current = current.nextNode;
+    }
 
-  //   if (current === null) return null;
-  //   return currentIndex;
-  // }
+    if (current === null) return null;
+    return currentIndex;
+  }
 
   // **************************** //
 
