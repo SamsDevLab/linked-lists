@@ -98,27 +98,27 @@ export class LinkedList {
 
   // **************************** //
 
-  // pop() {
-  //   let current = this.head;
-  //   let prev = null;
+  pop() {
+    let current = this.head;
+    let prev = null;
 
-  //   if (current === null) return null;
+    if (current === null) return null;
 
-  //   while (current.nextNode !== null) {
-  //     prev = current;
-  //     current = current.nextNode;
-  //   }
+    while (current.nextNode !== null) {
+      prev = current;
+      current = current.nextNode;
+    }
 
-  //   if (prev === null) {
-  //     this.head = null;
-  //     this.tail = null;
-  //     return current;
-  //   } else {
-  //     prev.nextNode = null;
-  //     this.tail = prev;
-  //     return current;
-  //   }
-  // }
+    if (prev === null) {
+      this.head = null;
+      this.tail = null;
+      return current;
+    } else {
+      prev.nextNode = null;
+      this.tail = prev;
+      return current;
+    }
+  }
 
   // **************************** //
 
