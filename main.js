@@ -36,10 +36,10 @@ list.append("turtle");
 // console.log(list.pop());
 
 // Returns "true" if passed value is in list - otherwise returns "false"
-console.log(list.contains("parrot"));
+// console.log(list.contains("parrot"));
 
 // Returns Index of node containing value - returns "null" if not found
-// console.log(list.find("skunk"));
+console.log(list.find("skunk"));
 
 // Represents LinkedList as string
 // console.log(list.toString());
