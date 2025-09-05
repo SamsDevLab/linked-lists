@@ -8,39 +8,39 @@ export class LinkedList {
 
   // **************************** //
 
-  // addFirstNode(value) {
-  //   const newNode = new Node();
-  //   newNode.value = value;
+  addFirstNode(value) {
+    const newNode = new Node();
+    newNode.value = value;
 
-  //   this.head = newNode;
-  //   this.tail = newNode;
-  // }
-
-  // **************************** //
-
-  // addNode(value) {
-  //   const node = new Node();
-  //   node.value = value;
-
-  //   return node;
-  // }
+    this.head = newNode;
+    this.tail = newNode;
+  }
 
   // **************************** //
 
-  // append(value) {
-  //   if (this.head === null) {
-  //     this.addFirstNode(value);
-  //   } else {
-  //     let current = this.head;
-  //     while (current.nextNode !== null) {
-  //       current = current.nextNode;
-  //     }
+  addNode(value) {
+    const node = new Node();
+    node.value = value;
 
-  //     const node = this.addNode(value);
-  //     current.nextNode = node;
-  //     this.tail = node;
-  //   }
-  // }
+    return node;
+  }
+
+  // **************************** //
+
+  append(value) {
+    if (this.head === null) {
+      this.addFirstNode(value);
+    } else {
+      let current = this.head;
+      while (current.nextNode !== null) {
+        current = current.nextNode;
+      }
+
+      const node = this.addNode(value);
+      current.nextNode = node;
+      this.tail = node;
+    }
+  }
 
   // **************************** //
 
