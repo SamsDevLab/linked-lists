@@ -122,18 +122,18 @@ export class LinkedList {
 
   // **************************** //
 
-  // contains(value) {
-  //   let current = this.head;
+  contains(value) {
+    let current = this.head;
 
-  //   if (current === null) return false;
+    if (current === null) return false;
 
-  //   while (current !== null && current.value !== value) {
-  //     current = current.nextNode;
-  //   }
+    while (current !== null && current.value !== value) {
+      current = current.nextNode;
+    }
 
-  //   if (current !== null) return true;
-  //   else return false;
-  // }
+    if (current !== null) return true;
+    else return false;
+  }
 
   // **************************** //
 
