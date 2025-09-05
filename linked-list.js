@@ -57,17 +57,17 @@ export class LinkedList {
 
   // **************************** //
 
-  // size() {
-  //   let current = this.head;
-  //   let currentIndex = 0;
+  size() {
+    let current = this.head;
+    let currentIndex = 0;
 
-  //   while (current !== null) {
-  //     currentIndex += 1;
-  //     current = current.nextNode;
-  //   }
+    while (current !== null) {
+      currentIndex += 1;
+      current = current.nextNode;
+    }
 
-  //   return currentIndex;
-  // }
+    return currentIndex;
+  }
 
   // **************************** //
 
