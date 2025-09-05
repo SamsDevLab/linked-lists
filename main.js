@@ -39,10 +39,10 @@ list.append("turtle");
 // console.log(list.contains("parrot"));
 
 // Returns Index of node containing value - returns "null" if not found
-console.log(list.find("skunk"));
+// console.log(list.find("skunk"));
 
 // Represents LinkedList as string
-// console.log(list.toString());
+console.log(list.toString());
 // console.log(list);
 
 // Inserts new node with provided value at given index
