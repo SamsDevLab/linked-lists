@@ -42,11 +42,11 @@ list.append("turtle");
 // console.log(list.find("skunk"));
 
 // Represents LinkedList as string
-console.log(list.toString());
+// console.log(list.toString());
 // console.log(list);
 
 // Inserts new node with provided value at given index
-list.insertAt("skunk", 25);
+// list.insertAt("skunk", 25);
 
 // Removes node at given index
-// list.removeAt(3);
+list.removeAt(3);
