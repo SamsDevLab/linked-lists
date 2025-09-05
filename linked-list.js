@@ -192,29 +192,29 @@ export class LinkedList {
 
   // **************************** //
 
-  //   removeAt(index) {
-  //     let current = this.head;
-  //     let currentIndex = 0;
-  //     let prev = null;
+  removeAt(index) {
+    let current = this.head;
+    let currentIndex = 0;
+    let prev = null;
 
-  //     if (current === null) return null;
+    if (current === null) return null;
 
-  //     while (current !== null && currentIndex !== index) {
-  //       currentIndex += 1;
-  //       prev = current;
-  //       current = current.nextNode;
-  //     }
+    while (current !== null && currentIndex !== index) {
+      currentIndex += 1;
+      prev = current;
+      current = current.nextNode;
+    }
 
-  //     if (currentIndex === 0) {
-  //       this.head = current.nextNode;
-  //       current = null;
-  //     } else if (current === null) {
-  //       return null;
-  //     } else {
-  //       prev.nextNode = current.nextNode;
-  //       current = null;
-  //     }
-  //   }
+    if (currentIndex === 0) {
+      this.head = current.nextNode;
+      current = null;
+    } else if (current === null) {
+      return null;
+    } else {
+      prev.nextNode = current.nextNode;
+      current = null;
+    }
+  }
 }
 
 class Node {
