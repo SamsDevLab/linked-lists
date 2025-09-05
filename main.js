@@ -5,23 +5,23 @@ import { LinkedList } from "./linked-list.js";
 const list = new LinkedList();
 
 // Append
-// list.append("dog");
-// list.append("cat");
-// list.append("parrot");
-// list.append("hamster");
-// list.append("snake");
-// list.append("turtle");
+list.append("dog");
+list.append("cat");
+list.append("parrot");
+list.append("hamster");
+list.append("snake");
+list.append("turtle");
 
 // Prepend
-list.prepend("dog");
-list.prepend("cat");
-list.prepend("parrot");
-list.prepend("hamster");
-list.prepend("snake");
-list.prepend("turtle");
+// list.prepend("dog");
+// list.prepend("cat");
+// list.prepend("parrot");
+// list.prepend("hamster");
+// list.prepend("snake");
+// list.prepend("turtle");
 
 // Size - returns total number of Nodes
-// console.log(list.size());
+console.log(list.size());
 
 // Get Head Node
 // console.log(list.headNode());
