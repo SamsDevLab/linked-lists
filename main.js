@@ -30,10 +30,10 @@ list.append("turtle");
 // console.log(list.tailNode());
 
 // Return Node at Given Index
-console.log(list.at(-25));
+// console.log(list.at(-25));
 
 // Remove Last Element from List
-// console.log(list.pop());
+console.log(list.pop());
 
 // Returns "true" if passed value is in list - otherwise returns "false"
 // console.log(list.contains("parrot"));
