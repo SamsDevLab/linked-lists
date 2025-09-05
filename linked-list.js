@@ -152,18 +152,18 @@ export class LinkedList {
 
   // **************************** //
 
-  // toString() {
-  //   let current = this.head;
-  //   let totalStr = "";
+  toString() {
+    let current = this.head;
+    let totalStr = "";
 
-  //   while (current !== null) {
-  //     totalStr += `( ${current.value} ) -> `;
-  //     current = current.nextNode;
-  //   }
+    while (current !== null) {
+      totalStr += `( ${current.value} ) -> `;
+      current = current.nextNode;
+    }
 
-  //   totalStr += "null";
-  //   return totalStr;
-  // }
+    totalStr += "null";
+    return totalStr;
+  }
 
   // **************************** //
 
