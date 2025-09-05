@@ -21,10 +21,10 @@ list.append("turtle");
 // list.prepend("turtle");
 
 // Size - returns total number of Nodes
-console.log(list.size());
+// console.log(list.size());
 
 // Get Head Node
-// console.log(list.headNode());
+console.log(list.headNode());
 
 // Get Tail Node
 // console.log(list.tailNode());
