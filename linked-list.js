@@ -83,18 +83,18 @@ export class LinkedList {
 
   // **************************** //
 
-  // at(index) {
-  //   let current = this.head;
-  //   let currentIndex = 0;
+  at(index) {
+    let current = this.head;
+    let currentIndex = 0;
 
-  //   while (current !== null && currentIndex !== index) {
-  //     currentIndex += 1;
-  //     current = current.nextNode;
-  //   }
+    while (current !== null && currentIndex !== index) {
+      currentIndex += 1;
+      current = current.nextNode;
+    }
 
-  //   if (current === null) return null;
-  //   else return current;
-  // }
+    if (current === null) return null;
+    else return current;
+  }
 
   // **************************** //
 
