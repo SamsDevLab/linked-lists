@@ -24,10 +24,10 @@ list.append("turtle");
 // console.log(list.size());
 
 // Get Head Node
-console.log(list.headNode());
+// console.log(list.headNode());
 
 // Get Tail Node
-// console.log(list.tailNode());
+console.log(list.tailNode());
 
 // Return Node at Given Index
 // console.log(list.at(-25));
