@@ -217,7 +217,7 @@ export class LinkedList {
   //   }
 }
 
-// class Node {
-//   value = null;
-//   nextNode = null;
-// }
+class Node {
+  value = null;
+  nextNode = null;
+}
