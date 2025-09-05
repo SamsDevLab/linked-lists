@@ -71,9 +71,9 @@ export class LinkedList {
 
   // **************************** //
 
-  // headNode() {
-  //   return this.head;
-  // }
+  headNode() {
+    return this.head;
+  }
 
   // **************************** //
 
