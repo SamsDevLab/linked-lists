@@ -167,28 +167,28 @@ export class LinkedList {
 
   // **************************** //
 
-  // insertAt(value, index) {
-  //   let current = this.head;
-  //   let currentIndex = 0;
-  //   let prev = null;
+  insertAt(value, index) {
+    let current = this.head;
+    let currentIndex = 0;
+    let prev = null;
 
-  //   while (current !== null && currentIndex !== index) {
-  //     currentIndex += 1;
-  //     prev = current;
-  //     current = current.nextNode;
-  //   }
+    while (current !== null && currentIndex !== index) {
+      currentIndex += 1;
+      prev = current;
+      current = current.nextNode;
+    }
 
-  //   if (currentIndex === 0) {
-  //     this.prepend(value);
-  //   } else if (currentIndex !== index) {
-  //     this.append(value);
-  //   } else {
-  //     const newNode = new Node();
-  //     newNode.value = value;
-  //     prev.nextNode = newNode;
-  //     newNode.nextNode = current;
-  //   }
-  // }
+    if (currentIndex === 0) {
+      this.prepend(value);
+    } else if (currentIndex !== index) {
+      this.append(value);
+    } else {
+      const newNode = new Node();
+      newNode.value = value;
+      prev.nextNode = newNode;
+      newNode.nextNode = current;
+    }
+  }
 
   // **************************** //
 
