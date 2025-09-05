@@ -44,16 +44,16 @@ export class LinkedList {
 
   // **************************** //
 
-  // prepend(value) {
-  //   if (this.head === null) {
-  //     this.addFirstNode(value);
-  //   } else {
-  //     const current = this.head;
-  //     const newNode = this.addNode(value);
-  //     this.head = newNode;
-  //     this.head.nextNode = current;
-  //   }
-  // }
+  prepend(value) {
+    if (this.head === null) {
+      this.addFirstNode(value);
+    } else {
+      const current = this.head;
+      const newNode = this.addNode(value);
+      this.head = newNode;
+      this.head.nextNode = current;
+    }
+  }
 
   // **************************** //
 
