@@ -27,10 +27,10 @@ list.append("turtle");
 // console.log(list.headNode());
 
 // Get Tail Node
-console.log(list.tailNode());
+// console.log(list.tailNode());
 
 // Return Node at Given Index
-// console.log(list.at(-25));
+console.log(list.at(-25));
 
 // Remove Last Element from List
 // console.log(list.pop());
