@@ -46,7 +46,7 @@ console.log(list.toString());
 // console.log(list);
 
 // Inserts new node with provided value at given index
-// list.insertAt("skunk", 25);
+list.insertAt("skunk", 25);
 
 // Removes node at given index
 // list.removeAt(3);
